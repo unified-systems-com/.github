@@ -1,9 +1,6 @@
 # Unified Systems
 
-Home of **TAP — The Analogy Platform**: master the systems you are responsible
-for — accounts, pipelines, fleets, data flows, the organization itself — by
-modeling each as a live, queryable, visual graph called **the grid**. Built for
-humans and AI agents working together.
+Home of **TAP — The Analogy Platform**: a system's mastery platform and an instance of the grid.
 
 - **[tap](https://github.com/unified-systems-com/tap)** — the core platform.
   [TAP in two pages](https://github.com/unified-systems-com/tap/blob/main/docs/doc-tap-intro.md)
