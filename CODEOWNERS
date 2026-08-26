@@ -19,3 +19,8 @@
 
 # The published vulnerability policy — the reporting promise every repo inherits.
 /SECURITY.md             @notgeorge
+
+# This file owns itself: editing who reviews org-wide policy is itself an act of
+# policy, so it cannot be done unreviewed. (The tap repo gets this for free from its
+# /.github/ directory rule; here there is no umbrella, so it is spelled out.)
+/CODEOWNERS              @notgeorge @flowingcalm
