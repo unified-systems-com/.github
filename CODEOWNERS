@@ -1,0 +1,21 @@
+# CODEOWNERS — org-wide community health files.
+#
+# This repository holds the DEFAULT community health files for every public repo in
+# unified-systems-com: a repo without its own copy inherits what is here. That makes
+# these documents org-wide policy, so changes to them get owner review.
+#
+# PRECONDITION (learned the hard way): GitHub resolves a code owner only if that
+# account has WRITE access to THIS repository. An unresolvable owner is silently
+# IGNORED — not an error — so the line reads as enforcement while enforcing nothing.
+# Verify after any owner change:
+#   gh api repos/unified-systems-com/.github/codeowners/errors
+#
+# @flowingcalm steers code of conduct and governance (2026-08-26). Access lives here
+# rather than on the code repo on purpose: stewarding policy documents needs write on
+# the policy documents, not on the codebase.
+
+/CODE_OF_CONDUCT.md      @notgeorge @flowingcalm
+/GOVERNANCE.md           @notgeorge @flowingcalm
+
+# The published vulnerability policy — the reporting promise every repo inherits.
+/SECURITY.md             @notgeorge
